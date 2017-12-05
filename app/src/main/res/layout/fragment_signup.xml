@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:hint="@string/username_hint"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:maxLength="12"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pin"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPin"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/pin_hint"
+        android:password="true"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:maxLength="4"
+        android:numeric="integer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recipient"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/recipient_hint"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNumber"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/number_hint"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:id="@+id/bSignup"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

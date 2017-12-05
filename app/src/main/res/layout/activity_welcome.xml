@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--<include layout="@layout/appbar"></include>-->
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+
+       >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/apticlogo"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorPrimary"
+            android:text="@string/welcome_welcome"
+            android:id="@+id/textView1"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_intro"
+            android:textColor="@color/textColorPrimary"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_extra"
+            android:textColor="@color/textColorPrimary"
+            android:id="@+id/textView3"
+            android:layout_gravity="left" />
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/btnWelcome"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/primaryColor"
+        android:text="Message"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

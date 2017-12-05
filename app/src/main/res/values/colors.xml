@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#FF7043</color>
+    <color name="primaryColorDark">#F4511E</color>
+    <color name="buttonColor">#FF5722</color>
+    <color name="accentColor">#FFFFFF</color>
+    <color name="textColorPrimary">#000000</color>
+
+    <color name="primaryColorBlue">#2196F3</color>
+    <color name="primaryColorDarkBlue">#1976D2</color>
+    <color name="buttonColorBlue">#1565C0</color>
+    <color name="accentColorBlue">#FFFFFF</color>
+
+    <color name="primaryWindowColor">#FFFFFF</color>
+</resources>

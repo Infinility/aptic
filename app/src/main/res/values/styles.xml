@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <!--<item name="tabStripColor">@color/accentColor</item>-->
+    </style>
+
+    <style name="AppTheme.Blue" parent="AppTheme.Base.Blue">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <!--<item name="colorAccent">@color/accentColor</item>-->
+        <!--<item name="android:windowBackground">@color/primaryWindowColor</item>-->
+    </style>
+
+    <style name="AppTheme.Base.Blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColorBlue</item>
+        <item name="colorPrimaryDark">@color/primaryColorDarkBlue</item>
+        <item name="colorAccent">@color/accentColorBlue</item>
+        <!--<item name="android:windowBackground">@color/primaryColor</item>-->
+    </style>
+
+    <style name="WelcomeTheme" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:windowBackground">@color/primaryWindowColor</item>
+    </style>
+
+    <style name="WelcomeTheme.Blue" parent="AppTheme.Base.Blue">
+        <item name="colorPrimary">@color/primaryColorBlue</item>
+        <item name="colorPrimaryDark">@color/primaryColorDarkBlue</item>
+        <item name="colorAccent">@color/accentColorBlue</item>
+        <item name="android:windowBackground">@color/primaryColorBlue</item>
+    </style>
+
+</resources>
